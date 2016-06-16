@@ -1,0 +1,17 @@
+CARRYING_CAPACITY 1000000000  
+INIT_TOTALPOPSIZE 900000000      
+NUM_LOCI 2           
+PROP_WIDETYPE 0.9          
+INTRI_DEATH_RATE 0.001 
+MUTATION 0.00000001
+SELECTION 0.02
+GROWTH_RATE 0.1
+UPTAKE_RATE 0.0000001
+NUTRITIONAL_VALUE 0.01      // benefit from taking DNA as "food"
+INCORPORATION_RATE 0.5
+LYSIS 0.001 
+CONSOLE	 1   // whether print on console
+TIME_MAX 20000
+NUM_OF_POPTYPE 3          // number of strains included in the sysem
+OUTPUT simulation_XaXnXr.txt
+REACTIONSYSTEM XaXnXr      // strain names

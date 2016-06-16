@@ -1,0 +1,33 @@
+CARRYING_CAPACITY  1000000;
+INIT_TOTALPOPSIZE  900000;
+PROP_WILDTYPE  0.9; // genotype 0 is wildtype
+GROWTH_RATE  0.1;
+MUTATION  0.001;
+NUTRITIONAL_VALUE  0.01;
+UPTAKE_RATE  0.01;
+INCORPORATION_RATE  0.00005;
+LYSIS  0.0015;
+SELECTION  0.01;
+FITNESS  1.0;
+BURST_SIZE  100;
+NUM_LOCI  1000;
+CONSOLE  1;
+TIME_MAX  200000;
+
+NUM_STRAIN  3;
+PROP_STRAIN1  0.34;
+PROP_STRAIN2  0.33;
+PROP_STRAIN3  0.33;
+STRAIN_NAME  "XnXrXnr";
+TOTAL_NUM_REACTIONS  38;    // Xa: 8; Xn: 10; Xr: 14; Xnr: 14
+TOTAL_NUM_POPULATION  6;   // 2*NUM_STRAIN
+NUM_LYSIS  6; // Xa: 0; Xn: 2; Xr: 2; Xnr: 2
+NUM_G2  4; //Xa: 0; Xn: 2; Xr: 0; Xnr: 2
+NUM_RECOMB  8; // Xa: 0; Xn: 0; Xr: 4; Xnr: 4
+SAMPLING_FREQ  1;  // frequency of storing results in the output file
+
+OUTPUT  "selfish_run1.txt";
+
+
+// to do
+// using extern parameters to replace the parameters for some functions

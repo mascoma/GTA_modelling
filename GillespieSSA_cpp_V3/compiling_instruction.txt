@@ -1,0 +1,18 @@
+Xa
+Xn
+Xr
+Xnr
+ 
+selfish model - gene level selection for GTA genome
+
+recombination model - population level selection for GTA contained host population
+
+PC version:
+compile: g++ -o out *.cpp 
+run program: ./out input.txt
+
+modifying the parameters in "input.txt" to define the reaction system and processes
+
+Cluster version:
+#module load intel-compilers/15.0
+compile: icc -O3 -mkl -I/opt/sprng/4.4/include -std=c++11 -o model_XaXnXr *.cpp /opt/sprng/4.4/lib/libsprng.a

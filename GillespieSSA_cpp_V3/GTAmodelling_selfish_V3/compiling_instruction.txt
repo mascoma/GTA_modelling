@@ -1,0 +1,15 @@
+GTA mediated HGT model2 - selection model
+
+Xa: bacteria population without GTA and won't take GTA
+Xn: bacteria population take GTA as "food"
+Xr: bacteria population take GTA as "food" and integrate infected DNA fragments into their own genome
+
+PC version:
+compile: g++ -o out *.cpp 
+run program: ./out input.txt
+
+modifying the parameters in "input.txt" to define the reaction system and processes
+
+Cluster version:
+#module load intel-compilers/15.0
+compile: icc -O3 -mkl -I/opt/sprng/4.4/include -std=c++11 -o model_XaXnXr *.cpp /opt/sprng/4.4/lib/libsprng.a

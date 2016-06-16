@@ -1,6 +1,6 @@
 ### GTA_modelling
 
-This program is for Gillespie stochastic simulation to model the dynamic of host bacterial populations under the influence of GTA. 
+This program (GillespieSSA_cpp_V3) is for Gillespie stochastic simulation to model the dynamic of host bacterial populations under the influence of GTA. 
 * The selfish model is to test the gene level selection hypothesis without considering the benefits from GTA activities. 
 * The recombination model is to test the group selection hypothesis considering that the GTA mediated HGT as nutritioanl supply and/or enhancing diversity. 
 

@@ -18,10 +18,12 @@ Xnr: bacteria population take GTA as "food" and integrate infected DNA fragments
 g++ -o out *.cpp 
 ```
 * Cluster version:
+
+using SPRNG for random number generator 
+
 ```bash
 module load intel-compilers/15.0
 ```
-using SPRNG for random number generator
  
 ```bash
 icc -O3 -mkl -I/opt/sprng/4.4/include -std=c++11 -o model_XaXnXr *.cpp /opt/sprng/4.4/lib/libsprng.a
